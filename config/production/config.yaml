@@ -1,5 +1,5 @@
 # title: Emmanuel Amadio tech blog
-baseURL: 'file:///home/emmanuel/Documents/github-page/public/'
+baseURL: 'https://eamadio.github.io'
 languageCode: en-us
 theme: ananke
 DefaultContentLanguage: en
