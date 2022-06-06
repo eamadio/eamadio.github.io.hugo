@@ -1,0 +1,12 @@
+text_color: ''
+author: ''
+favicon: ''
+site_logo: ''
+description: The last theme you'll ever need. Maybe.
+background_color_class: bg-blue
+recent_posts_number: 5
+ananke_socials:
+  - name: github
+    url: 'https://github.com/eamadio/'
+  - name: linkedin
+    url: 'https://www.linkedin.com/in/emmanuelamadio/'

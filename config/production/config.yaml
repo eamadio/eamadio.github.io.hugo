@@ -1,0 +1,9 @@
+# title: Emmanuel Amadio tech blog
+baseURL: 'file:///home/emmanuel/Documents/github-page/public/'
+languageCode: en-us
+theme: ananke
+DefaultContentLanguage: en
+SectionPagesMenu: main
+Paginate: 12
+googleAnalytics: ''
+enableRobotsTXT: true

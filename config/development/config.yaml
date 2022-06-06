@@ -1,0 +1,9 @@
+title: Emmanuel Amadio tech blog version DEV 
+baseURL: ''
+languageCode: en-us
+theme: ananke
+DefaultContentLanguage: en
+SectionPagesMenu: main
+Paginate: 12
+googleAnalytics: ''
+enableRobotsTXT: true
