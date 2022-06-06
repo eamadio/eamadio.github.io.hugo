@@ -3,7 +3,7 @@ title: "How to set up this website using Hugo part 1"
 date: 2022-06-04T01:122:42+02:00
 author: "Emmanuel Amadio"
 linktitle: How to set up this website using Hugo
-next: /set-hugo-2
+# next: /set-hugo-2
 # prev: /using-redis-with-spring-boot
 weight: 3
 authorAvatar: image/logo.svg
@@ -44,7 +44,7 @@ The only catch here is that you can only have static content, no server, no data
 ## Why Hugo?
 
 From the github pages constraints came an idea I wanted to try since a while: **using a static site generator**.
-While github pages provides a convenient way to use [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll), a slow but proven solution, I wanted to try [Hugo](https://gohugo.io/) as it is fast and could use the github actions pipeline to do automatic site generation and it is written in the [Go](https://go.dev/) language which I wanted to have a taste of.
+While github pages provides a convenient way to use [Jekyll](https://docs.github.com/en/pages/setting-up-a-eamadio-github-io-hugos-site-with-jekyll), a slow but proven solution, I wanted to try [Hugo](https://gohugo.io/) as it is fast and could use the github actions pipeline to do automatic site generation and it is written in the [Go](https://go.dev/) language which I wanted to have a taste of.
 
 Quoting from the official website:
 
@@ -102,13 +102,13 @@ cd ~/Documents
 Now it's time to create the project:
 
 ```bash
-hugo new site github-page
+hugo new site eamadio-github-io-hugo
 ```
 
 You would see below result. Basic hugo project is ready now.
 
 ```text
-Congratulations! Your new Hugo site is created in /home/emmanuel/Documents/github-page.
+Congratulations! Your new Hugo site is created in /home/emmanuel/Documents/eamadio-github-io-hugo.
 
 Just a few more steps and you're ready to go:
 
@@ -136,7 +136,7 @@ Type below commands to initialize the project as a git repository.
 
 ```bash
 # Move into the project directory
-cd github-page
+cd eamadio-github-io-hugo
 
 # Initialize git repository    
 git init                                                                                
@@ -150,7 +150,14 @@ hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
 hint: 'development'. The just-created branch can be renamed via this command:
 hint: 
 hint:     git branch -m <name>
-Initialized empty Git repository in /home/emmanuel/Documents/github-page/.git/
+Initialized empty Git repository in /home/emmanuel/Documents/eamadio-github-io-hugo/.git/
+ ```
+
+Type below command if like me your default branch is still master and not main.
+
+```bash
+# Change branch to main
+git branch -m main
  ```
 
 #### Theme Installation
@@ -165,7 +172,7 @@ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git theme
 You will see below output
 
 ```bash
-Cloning into '/home/emmanuel/Documents/github-page/themes/ananke'...
+Cloning into '/home/emmanuel/Documents/eamadio-github-io-hugo/themes/ananke'...
 remote: Enumerating objects: 2529, done.
 remote: Counting objects: 100% (552/552), done.
 remote: Compressing objects: 100% (308/308), done.
