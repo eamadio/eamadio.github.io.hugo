@@ -1,4 +1,19 @@
-main:
-  - name: Blog
-    url: "/"
-    weight: 200
+# main:
+#   - name: Articles
+#     url: posts/
+#     weight: 10
+#   - name: Categories
+#     url: categories/
+#     weight: 10
+#   - identifier: categories
+#     name: categories
+#     url: /categories/
+#     weight: 10
+#   - identifier: tags
+#     name: tags
+#     url: /tags/
+#     weight: 20
+  # - identifier: example
+  #   name: example.org
+  #   url: https://example.org
+  #   weight: 30

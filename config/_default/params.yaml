@@ -1,11 +1,50 @@
-text_color: ''
-author: ''
-favicon: ''
-site_logo: ''
-description: The last theme you'll ever need. Maybe.
-background_color_class: bg-blue
-recent_posts_number: 5
-ananke_socials:
+# env: production # to enable google analytics, opengraph, twitter-cards and schema.
+# description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+author: Emmanuel Amadio
+# author: ["Me", "You"] # multiple authors
+
+# defaultTheme: auto
+# disableThemeToggle: true
+ShowShareButtons: true
+ShowReadingTime: true
+# disableSpecial1stPost: true
+displayFullLangName: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
+ShowRssButtonInSectionTermList: true
+ShowToc: true
+# comments: false
+images: ["papermod-cover.png"]
+
+profileMode:
+  enabled: false
+  title: PaperMod
+  imageUrl: "#"
+  imageTitle: my image
+  # imageWidth: 120
+  # imageHeight: 120
+  buttons:
+    - name: Archives
+      url: archives
+    - name: Tags
+      url: tags
+    - name: Archive
+      url: "/archive"
+    - name: Github
+      url: "https://github.com/"
+
+homeInfoParams:
+  Title: "PaperMod"
+  Content: >
+    Welcome to demo of hugo's theme PaperMod.
+    - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+    - Do give a 🌟 on Github !
+    - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+
+socialIcons:
+  - name: RsS
+    url: "index.xml"
   - name: github
     url: 'https://github.com/eamadio/'
   - name: linkedin

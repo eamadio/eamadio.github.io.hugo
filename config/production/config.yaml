@@ -1,9 +1,2 @@
-# title: Emmanuel Amadio tech blog
+title: Emmanuel Amadio tech blog
 baseURL: 'https://eamadio.github.io'
-languageCode: en-us
-theme: ananke
-DefaultContentLanguage: en
-SectionPagesMenu: main
-Paginate: 12
-googleAnalytics: ''
-enableRobotsTXT: true

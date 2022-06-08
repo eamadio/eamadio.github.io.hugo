@@ -1,5 +1,5 @@
 ---
-title: "How to set up this website using Hugo part2"
+title: "Comment j'ai construit ce site avec Hugo partie 2"
 date: 2022-06-04T01:122:42+02:00
 author: "Emmanuel Amadio"
 linktitle: How to set up this website using Hugo
@@ -19,7 +19,7 @@ categories : [
 draft: false
 ---
 
-In part 1 we explored how I created a website using Hugo, now we are going to create a github action to automatically deploy the site on github pages when we create a commit.
+Dans la partie 1, nous avons exploré comment j'ai créé un site Web en utilisant Hugo, maintenant nous allons créer une action github pour déployer automatiquement le site sur les pages github lorsque nous créons un commit.
 
 ### **Set up of Git repositories**
 

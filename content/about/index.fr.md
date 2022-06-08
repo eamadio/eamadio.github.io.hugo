@@ -1,9 +1,9 @@
 ---
 title: "About"
 description: "💻 Digital Solutions Developer 📈 Agile Facilitator 🥇 Embedded Systems Expertise 🛠 [ C | Python | VHDL | Web Services | Electronics | Scrum ]"
-menu:
-  main:
-    weight: 1
+# menu:
+#   main:
+#     weight: 1
 ---
 {{< figure src="/images/Atari_1040STf.jpg" title="It started with this, long ago" >}}
 

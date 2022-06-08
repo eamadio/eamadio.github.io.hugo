@@ -1,9 +1,9 @@
 ---
-title: "How to set up this website using Hugo part 1"
+title: "Comment j'ai construit ce site avec Hugo partie 1"
 date: 2022-06-04T01:122:42+02:00
 author: "Emmanuel Amadio"
 linktitle: How to set up this website using Hugo
-# next: /set-hugo-2
+next: /set-hugo-2
 # prev: /using-redis-with-spring-boot
 weight: 3
 authorAvatar: image/logo.svg
@@ -19,7 +19,7 @@ categories : [
 draft: false
 ---
 
-My career is shifting, and I'm steering it towards web development, mostly backend. Coming from digital electronics & embedded systems, I have a broad view on the digital ecosystem and I need a space where to show case my work and ideas. Having a github account is nice, but I wanted a place where I could publish articles online. It can be of any form like tutorial, blogs, reviews, editorials and much more. Having my own blog provide the chance to add one more aspect of social presence. This blog website will as well be my portfolio.
+Ma carrière évolue, et je l'oriente vers le développement web, principalement backend. Issu de l'électronique numérique et des systèmes embarqués, j'ai une vision large de l'écosystème numérique et j'ai besoin d'un espace où présenter mon travail et mes idées. Avoir un compte github c'est bien, mais je voulais un endroit où je pourrais publier des articles en ligne. Il peut prendre n'importe quelle forme, comme des tutoriels, des blogs, des critiques, des éditoriaux et bien plus encore. Avoir mon propre blog offre la possibilité d'ajouter un autre aspect de la présence sociale. Ce blog sera également mon portfolio.
 
 ## What were the options for blogging
 
