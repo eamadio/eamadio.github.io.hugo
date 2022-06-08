@@ -38,6 +38,21 @@ en:
         url: /tags/
         weight: 3
 
+  profileMode:
+    enabled: enable
+    title: Emmanuel Amadio
+    imageUrl: "/images/my_face.jpeg"
+    imageTitle: my image
+    imageWidth: 300
+    imageHeight: 300
+    buttons:
+      - name: Posts
+        url: posts/
+      - name: Github
+        url: 'https://github.com/eamadio/'
+      - name: linkedin
+        url: "https://www.linkedin.com/in/emmanuelamadio/"
+
 fr:
   languageName: Français
   weight: 2
@@ -76,3 +91,18 @@ fr:
 #         name: tags
 #         url: /tags/
 #         weight: 4
+
+  profileMode:
+    enabled: enable
+    title: Emmanuel Amadio
+    imageUrl: "/images/my_face.jpeg"
+    imageTitle: my image
+    imageWidth: 300
+    imageHeight: 300
+    buttons:
+      - name: Articles
+        url: posts/
+      - name: Github
+        url: 'https://github.com/eamadio/'
+      - name: linkedin
+        url: "https://www.linkedin.com/in/emmanuelamadio/"
