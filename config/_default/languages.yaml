@@ -2,44 +2,17 @@ en:
   languageName: English
   languageAltTitle: "English"
   weight: 1
-  taxonomies:
-    category: categories
-    tag: tags
-    series: series
-  # menu:
-  #     main:
-  #         - name: Archive
-  #           url: archives
-  #           weight: 5
-  #         - name: Search
-  #           url: search/
-  #           weight: 10
-  #         - name: Tags
-  #           url: tags/
-  #           weight: 10
-  #         - name: Categories
-  #           url: categories/
-  #           weight: 10
+  # taxonomies:
+  #   category: categories
+  #   tag: tags
+  #   series: series
 
-  menu:
-    main:
-      - name: Posts
-        url: posts/
-        weight: 1
-      - name: Categories
-        url: categories/
-        weight: 2
-      # - identifier: categories
-      #   name: categories
-      #   url: /categories/
-      #   weight: 4
-      - identifier: tags
-        name: tags
-        url: /tags/
-        weight: 3
+  homeInfoParams:
+    Title: Welcome to my github pages
+    Content: Here you'll find my articles on technical topics...
 
   profileMode:
-    enabled: enable
+    enabled: false
     title: Emmanuel Amadio
     imageUrl: "/images/my_face.jpeg"
     imageTitle: my image
@@ -48,6 +21,8 @@ en:
     buttons:
       - name: Posts
         url: posts/
+      - name: Archive
+        url: "archives"
       - name: Github
         url: 'https://github.com/eamadio/'
       - name: linkedin
@@ -56,44 +31,13 @@ en:
 fr:
   languageName: Français
   weight: 2
-#   # title: PaperModL2
-#   taxonomies:
-#     category: FRcategories
-#     tag: FRtags
-#     series: FRseries
-#   profileMode:
-#     enabled: false
-#     title: PaperMod
-#     # imageUrl: "#"
-#     # imageTitle: my image
-#     # imageWidth: 120
-#     # imageHeight: 120
-#     subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-#     buttons:
-#       - name: Blog
-#         url: posts
-#       - name: Tags
-#         url: tags
 
-#   menu:
-#     main:
-#       - name: Articles
-#         url: posts/
-#         weight: 1
-#       - name: Categories
-#         url: categories/
-#         weight: 2
-#       # - identifier: categories
-#       #   name: categories
-#       #   url: /categories/
-#       #   weight: 3
-#       - identifier: tags
-#         name: tags
-#         url: /tags/
-#         weight: 4
+  homeInfoParams:
+    Title: Bienvenue sur mes pages github
+    Content: Vous trouverez ici mes articles sur des sujets techniques...
 
   profileMode:
-    enabled: enable
+    enabled: false
     title: Emmanuel Amadio
     imageUrl: "/images/my_face.jpeg"
     imageTitle: my image
@@ -102,7 +46,10 @@ fr:
     buttons:
       - name: Articles
         url: posts/
+      - name: Archive
+        url: "archives"
       - name: Github
         url: 'https://github.com/eamadio/'
       - name: linkedin
         url: "https://www.linkedin.com/in/emmanuelamadio/"
+

@@ -22,6 +22,12 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+        
 # markup:
 #   goldmark:
 #       renderer:
